@@ -29,11 +29,9 @@ PRODUCT_PACKAGES := \
     FusedLocation \
     Gallery2 \
     InputDevices \
-    LatinIME \
     Music \
     Provision \
     Phone \
-    QuickSearchBox \
     Settings \
     SystemUI \
     CalendarProvider \

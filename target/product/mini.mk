@@ -61,7 +61,6 @@ PRODUCT_PACKAGES += \
     MediaProvider \
     PackageInstaller \
     SettingsProvider \
-    Shell \
     TelephonyProvider \
     UserDictionaryProvider \
     abcc \
@@ -163,7 +162,6 @@ PRODUCT_PACKAGES += \
     Bluetooth \
     FusedLocation \
     InputDevices \
-    LatinIME \
     Phone \
     Provision \
     hostapd \
@@ -175,11 +173,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     librs_jni \
-    libvideoeditor_jni \
-    libvideoeditor_core \
-    libvideoeditor_osal \
-    libvideoeditor_videofilters \
-    libvideoeditorplayer \
 
 PRODUCT_PACKAGES += \
     audio.primary.default \
@@ -226,5 +219,4 @@ PRODUCT_PACKAGES += \
 
 # This is not necessary for mini, but is for mini-emulator as it should
 # be included in platform.zip
-PRODUCT_PACKAGES += camera.goldfish.jpeg
 

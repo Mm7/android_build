@@ -31,7 +31,6 @@ PRODUCT_PACKAGES += \
     MediaProvider \
     PackageInstaller \
     SettingsProvider \
-    Shell \
     apache-xml \
     bouncycastle \
     bu \
