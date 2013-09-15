@@ -24,7 +24,7 @@ PRODUCT_PACKAGES := \
 	Exchange2 \
 	FusedLocation \
 	Gallery \
-	Music \
+	Apollo \
 	Mms \
 	OpenWnn \
 	libWnnEngDic \
@@ -33,10 +33,9 @@ PRODUCT_PACKAGES := \
 	Phone \
 	PinyinIME \
 	libjni_pinyinime \
-	Protips \
 	SoftKeyboard \
 	SystemUI \
-	Launcher2 \
+	Trebuchet \
 	Development \
 	DevelopmentSettings \
 	DrmProvider \
@@ -59,8 +58,7 @@ PRODUCT_PACKAGES := \
 	Calendar \
 	SmokeTest \
 	SmokeTestApp \
-	rild \
-	LegacyCamera
+	rild
 
 # Define the host tools and libs that are parts of the SDK.
 -include sdk/build/product_sdk.mk
@@ -74,7 +72,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS := development/sdk_overlay
 
 PRODUCT_COPY_FILES := \
-	system/core/rootdir/etc/vold.fstab:system/etc/vold.fstab \
 	frameworks/base/data/sounds/effects/camera_click.ogg:system/media/audio/ui/camera_click.ogg \
 	frameworks/base/data/sounds/effects/VideoRecord.ogg:system/media/audio/ui/VideoRecord.ogg \
 	frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
