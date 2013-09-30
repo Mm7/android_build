@@ -63,7 +63,6 @@ PRODUCT_PACKAGES += \
     SettingsProvider \
     TelephonyProvider \
     UserDictionaryProvider \
-    abcc \
     apache-xml \
     audio \
     bouncycastle \
