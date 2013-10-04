@@ -23,7 +23,6 @@ PRODUCT_PACKAGES := \
     libfwdlockengine \
     WAPPushManager
 
-
 PRODUCT_PACKAGES += \
     Galaxy4 \
     HoloSpiralWallpaper \
